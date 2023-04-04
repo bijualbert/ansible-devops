@@ -41,7 +41,7 @@
 - name: Start docker containers
   hosts: all
   become: yes
-  become_user: nana
+  become_user: bijua
   vars_files:
     - project-vars
   roles:
